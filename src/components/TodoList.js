@@ -1,12 +1,10 @@
 /*
   <div>
     <ul>
-      <li>list item</li>
-      <li>list item</li>
-      <li>list item</li>
-      <li>list item</li>
-      <li>list item</li>
-      <li>list item</li>
+      list item
+      list item
+      list item
+      list item
     <ul>
   </div>
 */
