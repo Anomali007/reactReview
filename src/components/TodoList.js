@@ -3,9 +3,11 @@ import TodoListItem from './TodoListItem';
 
 const TodoList = (props) =>
   <div>
-    {props.items.map((item, index) => 
-      <TodoListItem key={index} index={index} item={item} deleteTodo={props.deleteTodo}/>
-    )}
+    <ul>
+      {props.items.map((item, index) =>
+        <TodoListItem key={index} index={index} item={item} deleteTodo={props.deleteTodo}/>
+      )}
+    </ul>
   </div>
 
 export default TodoList

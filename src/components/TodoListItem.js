@@ -1,9 +1,9 @@
 import React from 'react';
 
 const TodoListItem = (props) =>
-  <div>
+  <li>
     <button onClick={() => props.deleteTodo(props.index)}>delete</button>
     {props.item}
-  </div>
+  </li>
 
 export default TodoListItem;
